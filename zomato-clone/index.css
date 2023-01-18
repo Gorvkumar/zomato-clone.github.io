@@ -1,0 +1,594 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: none;
+
+}
+
+.navbar {
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight:50;
+     
+
+}
+
+nav {
+    background-color: ;
+    display: inline-block;
+    position: absolute;
+    right: 70px;
+
+
+}
+
+nav ul li {
+    margin-top: 10px;
+    list-style: none;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 120px;
+    font-size: 25px;
+
+
+}
+
+nav ul li a {
+    color: rgb(247, 243, 243);
+    margin: 15px;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.navbar p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#initial-link a {
+    background-color: transparent;
+    color: white;
+    margin-top: 38px;
+    margin-left: 100px;
+    padding-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#initial-link :hover{
+
+    color: red;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    background-image: url("food.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+}
+
+
+.header{
+    display: inline-block;
+    position: absolute;
+  
+    text-align: center;
+}
+
+.header h1{
+    text-align: center;
+    margin-top: 125px;
+    margin-left: 40px;
+    color: white;
+    font-size: 85px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: italic;    
+}
+
+.header p{
+   color: white;
+   font-size: 45px;
+   margin-left: 420px;
+   text-align: right;
+   margin-top: 15px;
+}
+
+
+
+
+.cards-content{
+    display: inline-block;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    text-align: center;
+    left: 20px;
+    
+}
+
+.card0{
+    display: inline-block;
+    position: absolute;
+    left: 170px;
+    
+}
+.card1{
+    display: inline-block;
+   position: absolute;
+   left: 560px;
+}
+.card2{
+   display: inline-block;
+   position: absolute;
+   left:950px;
+}
+
+.card-img-top{
+    width: 330px;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-body{
+    position: absolute;
+    width: 330px;
+    height: 100px;
+    border: 1px solid rgb(210, 209, 209);
+    padding: 1px;
+    border-top: none;
+    border-bottom-left-radius: 12px ;
+    border-bottom-right-radius: 12px;
+    bottom:0px;
+    background-color: #fff;
+    left:0px;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+.fa-solid{
+    display: none;
+}
+
+.fa-xmark{
+    display: none;
+}
+.middle{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.collections{
+    display: inline-block;
+    position: relative;
+    top: 350px;
+    left:174px;
+    text-align: center;
+}
+.collections h3{
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.collections p{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    padding: 15px;
+    top: 35px;
+    font-weight: 200;
+    left:50px;
+}
+
+.container{
+    display: grid;
+    position: relative;
+    top: 370px;
+    left:100px;
+}
+.col{
+    display: inline-block;
+    width: 300px;
+    border-radius: 15px;
+    padding: 0px;
+    height: 300px;
+}
+.row{
+    margin: 5px;
+}
+
+.col-img {
+    
+    border-radius: 7px;
+    width: 250px;
+    height: 325px;
+    cursor: pointer;
+}
+/* .col2 img{
+    width:250px;
+    height:300px;
+}
+.col3 img{
+    width:250px;
+    height:300px;
+}
+.col4 img{
+    width:250px;
+    height:300px;
+} */
+
+.cities{
+    display: inline-block;
+    position: relative;
+    top: 485px;
+    left: 190px
+    
+}
+
+.col-sm{
+    border: 2px solid #e9e6e6;
+    border-radius: 5px;
+    width: 366px;
+    margin: 10px;
+    font-size: larger;
+    height: 68px;
+    cursor: pointer;
+}
+
+.text-city{
+    font-size: 35px;
+    left: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+.fa-angle-right{
+   display: none;
+}
+
+.contact {
+    width: 100%;
+    top: 35rem;
+    display: inline-block;
+    position: relative;
+    left: 2px;
+    text-align: center;
+    background-color: rgb(255, 251, 247);
+}
+
+.contact img {
+    margin-left: -215px;
+    width: 230px;
+    height: 270px;
+    margin-top: 66px;
+    padding-top: 0px;
+}
+
+.contact p {
+    display: inline-block;
+    position: relative;
+    left:143px;
+    bottom: 280px;
+}
+
+.contact h3 {
+    display: inline-block;
+    position: absolute;
+    margin-left: -56px;
+    font-size: 40px;
+    font-weight: 450;
+    cursor: pointer;
+}
+
+#email-btn{
+    position: relative;
+    bottom: 190px;
+    left: 52px;
+    cursor: pointer;
+}
+
+.email-label {
+    position: relative;
+    bottom: 191px;
+    left: 53px;
+}
+
+#phone-btn{
+    position: relative;
+    left: 170px;
+    bottom: 213px;
+    cursor: pointer;
+}
+
+.phn-btn{
+    position: relative;
+    left: 173px;
+    bottom: 214px;
+} 
+
+#dwnld-img{
+    display: inline-block;
+    position:;
+    width: 50px;
+    height: 60px;
+    cursor:pointer;
+    
+}
+
+#app-para{
+    position:relative;
+    top:20px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+
+
+
+@media only screen and (max-width:600px) and (min-width:50px){
+
+    *{
+        text-align: center;
+        margin: 0px;
+    }
+     .content{
+        
+        width:140%;
+        padding-left: 10px;
+        /* background-image:url("pizza.jpg");
+        background-size: cover;
+        background-position: center; */
+    } 
+
+
+
+    .cards-content{
+        left: 112px;
+        top: 235px;
+        display: inline-block;
+        padding: 15px;
+        text-align: center;
+        position: relative;
+    }
+    .card0{
+        left: 100px;
+        top: -255px;
+        position:absolute;
+        display: block;
+    }
+    .card1{
+        left: 100px;
+        top: 280px;
+        position:absolute;
+        display: block;
+    }
+    .card2{
+        left: 100px;
+        top:90px
+        position:absolute;
+        display: block;
+    }
+
+    /* .card-img-top{
+        width: 400px;
+        height: 400px;
+    } */
+
+    .header{
+        display: inline-block;
+        top: 50px;
+        height:100%;
+        width: 100%;
+        background-color:none;
+        align-items: center;
+        
+    }
+
+    .header h1{
+        font-size: 50px;
+    }
+    .header p{
+        display: block;
+        position:absolute;
+        color: #fff;
+        padding: 30px;
+        font-size: 20px;
+        margin-left: 85px;
+        
+    } 
+
+    nav .fa-solid{
+        color: white;
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+      }
+
+      .sidemenu{
+        height: 100%;
+      }
+    
+    nav ul{
+        background: #ca8c73f3;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li {
+        display: block;
+        left: 2px;
+        margin: 14px;
+    }
+    nav ul .fa-solid{
+        color: #fff;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+     nav ul li a::after{
+        background: rgb(255, 255, 255);
+        transform: transition 0.5s;
+     }
+    
+     nav ul li a:hover::after {
+        width: 100%;
+        color: blue;
+    }
+
+    .collections {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        top: 778px;
+    }
+    .container {
+        display: grid;
+        top: 855px;
+        position: relative;
+        left: 100px;
+    }
+    
+     .col-0{
+        position: absolute;
+     }
+     .col-1{
+        position: absolute;
+        left: 280px;
+
+     }
+     .col-2{
+        position: absolute;
+        top: 340px;
+     }
+     .col-3{
+        position: absolute;
+        top: 340px;
+        left:280px;
+     }
+
+     .cities {
+        display: inline-block;
+        position: relative;
+        top: 100rem;
+        left: 190px;
+    }
+    .col-sm{
+        width: 100%;
+    }
+
+    .col-img{
+        margin: 15px;
+    }
+
+    .contact{
+
+        left: 160px;
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        top: 105rem;
+    }
+
+   
+
+    
+
+}
+
+@media only screen and (max-width:400px) and (min-width:50px){
+    .content{
+        width:190%;
+        position: relative;
+    }
+
+    
+}
+
+
